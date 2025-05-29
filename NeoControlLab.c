@@ -1,3 +1,22 @@
+/*
+ * Nome: Elcio Berilo Barbosa dos Santos Junior
+ * Matrícula: 20251RSE.MTC0024
+ *
+ * Atividade: Fita de Led
+ * Capítulo: Unidade 1 | Capítulo 7
+ * 
+ * Descrição do Projeto:
+ * Complementação do Projeto NeoControlLab utilizando uma técnica de interrupção 
+ * em conjunto com o botão A. Ao pressionar o botão A da placa BitDogLab, o sistema 
+ * sorteia e exibe uma sequência de números aleatórios entre 1 e 6. Esses números 
+ * são mostrados tanto na matriz de LEDs WS2812B quanto no display OLED.
+ *
+ * O que foi adicionado:
+ * - Implementação de interrupção por botão (GPIO) para controlar o início do sorteio.
+ * - Integração com display OLED para exibir mensagens e números sorteados.
+ * - Exibição gráfica dos números sorteados na matriz NeoPixel.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
