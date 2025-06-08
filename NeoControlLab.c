@@ -12,7 +12,7 @@
  * são mostrados tanto na matriz de LEDs WS2812B quanto no display OLED.
  *
  * O que foi adicionado:
- * - Implementação de interrupção por botão (GPIO) para controlar o início do sorteio.
+ * - Implementação de interrupção por botão A (GPIO) para controlar o início do sorteio.
  * - Integração com display OLED para exibir mensagens e números sorteados.
  * - Exibição gráfica dos números sorteados na matriz NeoPixel.
  */
